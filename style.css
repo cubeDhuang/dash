@@ -10,15 +10,16 @@ html {
 .links:before {
 	content: "";
 	position: fixed;
-	top: -8%;
-	left: -8%;
+	top: -10%;
+	left: -10%;
 	z-index: -1;
 
 	display: block;
 	background-image: url("/background.jpg");
-	background-size:cover;
-	width: 116%;
-	height: 116vh;
+	background-size: cover;
+	background-position: center;
+	width: 120%;
+	height: 120vh;
 	overflow: hidden;
 
 	filter: blur(15px);
